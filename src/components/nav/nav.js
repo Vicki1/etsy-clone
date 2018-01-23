@@ -10,8 +10,8 @@ export default function Nav (){
                  <div className="hamburger"><Hamburger/></div>
             </div>
             <div className="navDivLeft">
-                <div>Sell</div>
-                <div>Sign in</div>
+                <div className="sell topNavWord">Sell</div>
+                <div className="signIn topNavWord">Sign in</div>
                 <div className="cart"><Cart/></div>
             </div>
         </div>

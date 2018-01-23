@@ -96,11 +96,22 @@ body{
           width: 156.63px;
           color: $color-orange-1-darkest;
           font-size: 14px;
-          margin: 8px;
+          .topNavWord{
+              margin-top: 1px;
+              margin-bottom: 5px;
+              padding-top: 8px;
+          
+          }
+          .signIn{
+            border: solid 1px $color-orange-1-darkest;
+            border-radius: 3px;
+            width: 60px;
+          }
           .cart{
-            height: 50px;
-            width: 50px;
-            fill: black;
+            padding-right: 8px;
+            height: 20.17px;
+            width: 20.17px;
+            fill: $color-primary-dark-grey;
           }
      }
 }

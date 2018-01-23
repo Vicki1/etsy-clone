@@ -53,9 +53,17 @@ body {
     justify-content: space-between;
     width: 156.63px;
     color: #e55400;
-    font-size: 14px;
-    margin: 8px; }
+    font-size: 14px; }
+    .navDiv .navDivLeft .topNavWord {
+      margin-top: 1px;
+      margin-bottom: 5px;
+      padding-top: 8px; }
+    .navDiv .navDivLeft .signIn {
+      border: solid 1px #e55400;
+      border-radius: 3px;
+      width: 60px; }
     .navDiv .navDivLeft .cart {
-      height: 50px;
-      width: 50px;
-      fill: black; }
+      padding-right: 8px;
+      height: 20.17px;
+      width: 20.17px;
+      fill: #777777; }
