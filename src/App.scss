@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+$font-etsy-logo:'Merriweather', serif;
+
+$color-primary-border-color: lightgrey;
+$color-black: #000000;
+$color-blue: #0192b5;
+$color-primary-dark-grey:#777777;
+$color-primary-light-grey: #888888;
+$color-grey-white: #e1e3df;
+$color-orange-1-darkest: #e55400;
+$color-primary-orange: #f45800;
+$color-orange-2: #f56400;
+$color-barely-white-1: #f9f9f8;
+$color-barely-white-2: #faf9f5;
+$color-barely-white-3: #fbfbfa;
+$color-orange-4: #ffa300;
+$color-true-white: #ffffff;
+$color-grey-black-1-darkest: #222222;
+$color-grey-black-2: #333333;
+$color-green: #3e8609;
+$color-grey-black-3: #444444;
+$color-opacity-white: #000000, opacity 0%;
+$color-opacity-grey: #000000, opacity 50%;
+
+
+
+
+
+
+.navDiv{
+  border-bottom: 1px solid $color-primary-border-color;
+  display: flex;
+  justify-content: space-between;
+
+      .navDivRight{
+
+         display: flex;
+        justify-content: space-between;
+        width: 120px;
+            .etsyLogo{
+              color: $color-primary-orange;
+              font-family: $font-etsy-logo;
+            }
+      }
+
+      .navDivLeft{
+         
+          display: flex;
+          justify-content: space-between;
+          width: 156.63px;
+     }
+}

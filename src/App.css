@@ -1,0 +1,40 @@
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.navDiv {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between; }
+  .navDiv .navDivRight {
+    display: flex;
+    justify-content: space-between;
+    width: 120px; }
+    .navDiv .navDivRight .etsyLogo {
+      color: #f45800;
+      font-family: "Merriweather", serif; }
+  .navDiv .navDivLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 156.63px; }
