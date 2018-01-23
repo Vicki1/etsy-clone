@@ -23,18 +23,39 @@
   to {
     transform: rotate(360deg); } }
 
+body {
+  margin: 2px;
+  border: 2px;
+  padding: 2px; }
+
 .navDiv {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #e1e3df;
   display: flex;
   justify-content: space-between; }
   .navDiv .navDivRight {
+    padding: 5px;
     display: flex;
     justify-content: space-between;
-    width: 120px; }
+    width: 100px; }
     .navDiv .navDivRight .etsyLogo {
       color: #f45800;
-      font-family: "Merriweather", serif; }
+      font-family: "Merriweather", serif;
+      font-size: 26px;
+      height: 30px;
+      width: 60px; }
+    .navDiv .navDivRight .hamburger {
+      fill: #777777;
+      height: 24px;
+      width: 22px;
+      margin-top: 6px; }
   .navDiv .navDivLeft {
     display: flex;
     justify-content: space-between;
-    width: 156.63px; }
+    width: 156.63px;
+    color: #e55400;
+    font-size: 14px;
+    margin: 8px; }
+    .navDiv .navDivLeft .cart {
+      height: 50px;
+      width: 50px;
+      fill: black; }
